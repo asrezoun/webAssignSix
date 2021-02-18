@@ -133,6 +133,7 @@ searchBtn.addEventListener('click', function () {
   getImages(search.value)
   sliders.length = 0;
   search.value='';
+  document.getElementById('duration').value='';
 })
 
 sliderBtn.addEventListener('click', function () {
